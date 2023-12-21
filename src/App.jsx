@@ -10,7 +10,7 @@ function App() {
           </div>
         </div>
       </div>
-      <ToggleTheme/>
+      {/* <ToggleTheme/> */}
     </main>
   );
 }
