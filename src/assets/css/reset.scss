@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas {
+	display: block;
+}
+
+input,
+button,
+textarea,
+select {
+	font-family: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+#root,
+#__nuxt {
+	isolation: isolate;
+}
+
+ul,
+ol {
+	list-style: none;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container-fluid {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+@media (max-width: 991.98px) {
+	.container-fluid {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+}
