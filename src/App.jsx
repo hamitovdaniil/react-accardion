@@ -1,5 +1,4 @@
 import Accordion from './components/Accordion/Accardion';
-import ToggleTheme from './components/toggleTheme/ToggleTheme';
 function App() {
   return (
     <main>
@@ -10,7 +9,6 @@ function App() {
           </div>
         </div>
       </div>
-      {/* <ToggleTheme/> */}
     </main>
   );
 }
